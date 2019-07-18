@@ -1,0 +1,495 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.container {
+  display: inline;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.intro_section {
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.footer_section {
+  background-color: #000;
+}
+
+.preloader {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 99999;
+  display: none;
+  background-color: #000;
+}
+
+.background-video {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.background-video-2 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 0%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+._4_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.div-block {
+  display: inline-block;
+  width: 50%;
+}
+
+.div-block-2 {
+  display: inline-block;
+  width: 50%;
+}
+
+.testimonials {
+  background-color: orange;
+}
+
+.heading {
+  color: #fff;
+}
+
+.heading-2 {
+  color: #fff;
+}
+
+.slider {
+  background-color: #f59516;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide {
+  text-align: center;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.div-block-5 {
+  width: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 90px;
+}
+
+._4_block {
+  width: 25%;
+}
+
+._4_block.services_block {
+  width: 25%;
+  height: 22vh;
+  margin: 10px;
+  background-image: url('../images/close-up-code-coding-160107.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+._4_block.footer_block {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contact_section {
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+.about_section {
+  min-height: 100vh;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: transparent;
+}
+
+.work_section {
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+.services_section {
+  min-height: 100vh;
+  background-color: transparent;
+}
+
+.about {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contact {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.services {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.traits_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h1_audiowide {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Audiowide, sans-serif;
+}
+
+.h1_audiowide.greeting {
+  margin-top: 0px;
+  color: #fff;
+  font-size: 95px;
+  line-height: 95px;
+}
+
+.h1_audiowide.tagline {
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+._2_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._2_block {
+  width: 50%;
+}
+
+.div-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_block_header {
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.footer_heading {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.list-item {
+  color: #fff;
+}
+
+.legal_block {
+  text-align: center;
+}
+
+.heading-3 {
+  color: #fff;
+}
+
+.orange_button {
+  background-color: #f59516;
+}
+
+.footer_grid_2_block {
+  padding-top: 7px;
+  padding-bottom: 0px;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border-top: 1px solid #fff;
+}
+
+.footer_list_item {
+  font-family: 'Fa brands 400', sans-serif;
+  color: #fff;
+  font-size: 22px;
+}
+
+.footer_list_item.footer_icon {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.footer_link {
+  margin-left: 0px;
+  border-top: 1px solid #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_link.footer_icon {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 7px;
+  margin-left: 0px;
+}
+
+.grid-2 {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.footer_grid_1_block {
+  padding-top: 7px;
+  padding-bottom: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border-top: 1px solid #fff;
+}
+
+.heading-4 {
+  margin-bottom: 25px;
+}
+
+.background_holder {
+  position: relative;
+  z-index: -1;
+  background-color: grey;
+  opacity: 0;
+}
+
+.bg_grey {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  background-color: grey;
+}
+
+.bg_black {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  background-color: #000;
+}
+
+.bg_white {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+  background-color: #fff;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.heading-5 {
+  margin-top: 376px;
+  margin-bottom: 23px;
+  margin-left: 194px;
+  font-family: 'Peppa pig', sans-serif;
+  color: #00f;
+  font-size: 33em;
+}
+
+.body {
+  color: #df8bb9;
+}
+
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Peppa pig';
+  src: url('../fonts/Peppa-Pig.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
