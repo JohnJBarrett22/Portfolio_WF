@@ -170,6 +170,16 @@
   background-size: cover;
 }
 
+._4_block.services_block.web_development_block {
+  background-image: url('../images/web_development.jpg');
+}
+
+._4_block.services_block.analytics {
+  background-image: url('../images/analytics.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
 ._4_block.footer_block {
   margin-right: 10px;
   margin-left: 10px;
@@ -191,6 +201,7 @@
 }
 
 .about_section {
+  display: block;
   min-height: 100vh;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -222,9 +233,17 @@
 }
 
 .about {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .work {
@@ -781,6 +800,77 @@
 
 .nav_link.w--current {
   color: orange;
+}
+
+.about_block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.about_block.col_1 {
+  -webkit-box-flex: 0.25;
+  -webkit-flex: 0.25 auto;
+  -ms-flex: 0.25 auto;
+  flex: 0.25 auto;
+}
+
+.about_block.col_3 {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 auto;
+  -ms-flex: 2 auto;
+  flex: 2 auto;
+}
+
+.about_block.col_4 {
+  -webkit-box-flex: 0.55;
+  -webkit-flex-grow: 0.55;
+  -ms-flex-positive: 0.55;
+  flex-grow: 0.55;
+}
+
+.text-block {
+  font-size: 32px;
+  text-align: left;
+}
+
+._3d_scroll {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-perspective-origin: 50% 100%;
+  perspective-origin: 50% 100%;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.web_development {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  background-color: #00f;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
 }
 
 @media (max-width: 767px) {
