@@ -841,6 +841,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  background-color: #fff;
   -webkit-filter: blur(5px);
   filter: blur(5px);
   -webkit-perspective: 2000px;
@@ -871,6 +872,52 @@
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
+}
+
+.scroll_height {
+  height: 200vh;
+}
+
+.app_development {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  background-color: transparent;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-perspective-origin: 50% 100%;
+  perspective-origin: 50% 100%;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.app_development_inner {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: green;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.ui_ux {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+  background-color: orange;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
 }
 
 @media (max-width: 767px) {
