@@ -910,7 +910,7 @@
   transform-origin: 50% 100%;
 }
 
-.ui_ux {
+.seo {
   position: fixed;
   left: 0%;
   top: 0%;
@@ -927,13 +927,13 @@
   transform-origin: 50% 0%;
 }
 
-.inner_ui_ux {
+.inner_seo {
   position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: orange;
+  background-color: purple;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
