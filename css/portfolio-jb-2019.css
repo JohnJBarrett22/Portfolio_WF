@@ -842,8 +842,6 @@
   right: 0%;
   bottom: 0%;
   background-color: #fff;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
   -webkit-perspective: 2000px;
   perspective: 2000px;
   -webkit-perspective-origin: 50% 100%;
@@ -854,8 +852,6 @@
   -webkit-transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
-  -webkit-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
 }
 
 .services_intro {
@@ -875,7 +871,8 @@
 }
 
 .scroll_height {
-  height: 200vh;
+  height: 700vh;
+  opacity: 1;
 }
 
 .web_development {
@@ -901,7 +898,12 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: green;
+  border: 0px none #000;
+  border-radius: 0px;
+  background-color: transparent;
+  background-image: url('../images/web_development.jpg');
+  background-position: 0% 0%;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -915,10 +917,14 @@
   bottom: 0%;
   z-index: 3;
   background-color: transparent;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-perspective: 2000px;
   perspective: 2000px;
   -webkit-perspective-origin: 50% 100%;
   perspective-origin: 50% 100%;
+  -webkit-transform: perspective(0px);
+  transform: perspective(0px);
   -webkit-transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
@@ -930,7 +936,13 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: orange;
+  border: 0px none #000;
+  border-radius: 0px;
+  background-color: transparent;
+  background-image: url('../images/app_development.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
+  opacity: 1;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -959,7 +971,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 4;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -976,7 +988,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: purple;
+  background-color: transparent;
+  background-image: url('../images/ui_ux.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -988,7 +1003,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 5;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1005,7 +1020,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: pink;
+  background-color: transparent;
+  background-image: url('../images/digital_copywriting.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -1017,7 +1035,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 6;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1034,7 +1052,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: grey;
+  background-color: transparent;
+  background-image: url('../images/seo.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -1046,7 +1067,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 7;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1063,7 +1084,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: teal;
+  background-color: transparent;
+  background-image: url('../images/analytics.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -1075,7 +1099,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 8;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1092,7 +1116,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #00f;
+  background-color: transparent;
+  background-image: url('../images/internet_marketing.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -1133,7 +1160,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 3;
+  z-index: 9;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1150,7 +1177,10 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #ff0;
+  background-color: transparent;
+  background-image: url('../images/social_media_management.jpg');
+  background-position: 0px 0px;
+  background-size: 100% 100%;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
