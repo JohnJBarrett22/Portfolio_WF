@@ -841,7 +841,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: #fff;
+  background-color: #f5941c;
   -webkit-perspective: 2000px;
   perspective: 2000px;
   -webkit-perspective-origin: 50% 100%;
@@ -871,7 +871,7 @@
 }
 
 .scroll_height {
-  height: 700vh;
+  height: 1000vh;
   opacity: 1;
 }
 
@@ -1181,6 +1181,35 @@
   background-image: url('../images/social_media_management.jpg');
   background-position: 0px 0px;
   background-size: 100% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.services_end {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9;
+  background-color: transparent;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-perspective-origin: 50% 100%;
+  perspective-origin: 50% 100%;
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.inner_services_end {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #000;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
