@@ -1209,10 +1209,24 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #000;
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
+}
+
+.heading-6 {
+  color: #fff;
+}
+
+.heading-7 {
+  margin-top: 355px;
+  margin-bottom: auto;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 75px;
 }
 
 @media (max-width: 767px) {
