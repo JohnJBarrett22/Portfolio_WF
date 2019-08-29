@@ -1222,11 +1222,14 @@
 }
 
 .heading-7 {
+  display: inline-block;
   margin-top: 355px;
   margin-bottom: auto;
+  border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
-  font-size: 75px;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
 }
 
 @media (max-width: 767px) {
