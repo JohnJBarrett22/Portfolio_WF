@@ -1221,15 +1221,90 @@
   color: #fff;
 }
 
-.heading-7 {
+.web_development_title {
   display: inline-block;
-  margin-top: 355px;
-  margin-bottom: auto;
+  margin: 355px auto auto 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
   text-shadow: 1px 1px 7px #000;
+}
+
+.app_development_title {
+  position: static;
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.ui_ux_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.digital_copywriting_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.seo_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.analytics_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.internet_marketing_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.social_media_management_title {
+  display: inline-block;
+  margin: 355px auto auto 175px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  line-height: 85px;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.div-block-7 {
+  background-color: #00f;
 }
 
 @media (max-width: 767px) {
