@@ -1307,6 +1307,22 @@
   background-color: #00f;
 }
 
+.div-block-8 {
+  display: inline-block;
+  width: 50%;
+}
+
+.div-block-9 {
+  display: inline-block;
+  width: 50%;
+}
+
+.div-block-10 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 767px) {
   .the-sticky-div-title {
     font-size: 52px;
