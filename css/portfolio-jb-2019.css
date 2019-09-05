@@ -1324,6 +1324,10 @@
   margin-left: auto;
 }
 
+.heading-7 {
+  font-family: Audiowide, sans-serif;
+}
+
 @media (max-width: 767px) {
   .the-sticky-div-title {
     font-size: 52px;
