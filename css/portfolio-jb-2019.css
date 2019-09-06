@@ -1320,13 +1320,17 @@
 
 .div-block-10 {
   width: 90%;
-  margin-top: 0px;
+  margin-top: 35px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .heading-7 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   font-family: Audiowide, sans-serif;
+  font-size: 55px;
 }
 
 .block_cushion {
@@ -1342,6 +1346,14 @@
   border: 1px none #000;
   border-radius: 7px;
   background-color: transparent;
+}
+
+.form {
+  margin-top: 0px;
+}
+
+.form-block {
+  margin-top: 135px;
 }
 
 @media (max-width: 767px) {
