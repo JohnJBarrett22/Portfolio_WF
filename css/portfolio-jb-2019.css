@@ -427,6 +427,7 @@
 
 .heading-4 {
   margin-bottom: 25px;
+  font-family: Audiowide, sans-serif;
 }
 
 .background_holder {
@@ -1326,6 +1327,21 @@
 
 .heading-7 {
   font-family: Audiowide, sans-serif;
+}
+
+.block_cushion {
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  margin-right: 45px;
+  margin-left: 45px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px none #000;
+  border-radius: 7px;
+  background-color: transparent;
 }
 
 @media (max-width: 767px) {
