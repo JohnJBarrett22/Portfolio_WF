@@ -1224,7 +1224,7 @@
 
 .web_development_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto auto 0px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1356,10 +1356,434 @@
   margin-top: 135px;
 }
 
+.right-arrow {
+  display: none;
+}
+
+.h1-intro {
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.div-slideshow-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -100;
+}
+
+.left-arrow {
+  display: none;
+}
+
+.slide-nav {
+  display: none;
+}
+
+.slider-component {
+  width: 100%;
+  height: 100%;
+}
+
+.div-slider-image-wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/mbrella-bg-image-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-slider-image-wrapper._3 {
+  background-image: url('../images/mbrella-bg-image-3.jpg');
+}
+
+.div-slider-image-wrapper._1 {
+  background-image: url('../images/mbrella-bg-image-1.jpg');
+}
+
+.section-intro-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  padding: 64px 64px 64px 10vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+  color: #fff;
+}
+
+.image-icon-footer {
+  margin-right: 20px;
+  margin-left: -18px;
+}
+
+.div-bulleicon-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  height: 160px;
+  margin-right: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid hsla(0, 0%, 100%, 0.15);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+}
+
+.div-about-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  min-height: 20px;
+  margin-bottom: 20px;
+  padding: 64px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.button-form-contact {
+  width: 40%;
+  height: 56px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #00d3a1;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-form-contact:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.div-micro-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.text-footer {
+  margin-bottom: 5px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.text-footer:hover {
+  color: #fff;
+}
+
+.div-bullet-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  height: 160px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.h3-bullet {
+  margin-top: 20px;
+  color: #f59516;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 900;
+}
+
+.form-contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.text-field-form-contact {
+  height: 48px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-style: none;
+  border-color: #000;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.text-field-form-contact:hover {
+  color: #fff;
+  font-weight: 400;
+}
+
+.text-field-form-contact:focus {
+  color: #fff;
+  font-weight: 700;
+}
+
+.text-field-form-contact::-webkit-input-placeholder {
+  background-color: #333;
+  color: #00d3a1;
+  font-weight: 400;
+}
+
+.text-field-form-contact:-ms-input-placeholder {
+  background-color: #333;
+  color: #00d3a1;
+  font-weight: 400;
+}
+
+.text-field-form-contact::-ms-input-placeholder {
+  background-color: #333;
+  color: #00d3a1;
+  font-weight: 400;
+}
+
+.text-field-form-contact::placeholder {
+  background-color: #333;
+  color: #00d3a1;
+  font-weight: 400;
+}
+
+.text-field-form-contact.message {
+  height: 200px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.paragraph-columns {
+  width: 45%;
+  color: #909090;
+}
+
+.h3-common {
+  margin-top: 0px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 900;
+}
+
+.link-footer {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.link-footer:hover {
+  text-decoration: none;
+}
+
+.div-columns-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.paragraph-common {
+  margin-bottom: 10px;
+}
+
+.paragraph-common.contact {
+  margin-bottom: 40px;
+}
+
+.paragraph-about-header {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.paragraph-bullet {
+  margin-bottom: 0px;
+  color: #909090;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.section-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 64px 64px 64px 10vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.div-column {
+  width: 48%;
+}
+
+.div-contact-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  min-height: 20px;
+  margin-bottom: 60px;
+  padding: 64px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: #00d3a1;
+  color: #fff;
+}
+
+.div-bullet-text-wrapper {
+  width: 60%;
+}
+
+.form-block-contact {
+  width: 100%;
+}
+
+.image-mbrella-logo {
+  width: 240px;
+  margin-bottom: 40px;
+  margin-left: -28px;
+}
+
+@media (max-width: 991px) {
+  .section-intro-text {
+    padding-left: 6vw;
+  }
+  .div-about-wrapper {
+    width: 70vw;
+  }
+  .div-bullet-wrapper {
+    width: 70vw;
+  }
+  .paragraph-bullet {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .section-content {
+    padding-left: 6vw;
+  }
+  .div-contact-wrapper {
+    width: 70vw;
+  }
+}
+
 @media (max-width: 767px) {
   .the-sticky-div-title {
     font-size: 52px;
     text-align: center;
+  }
+  .h1-intro {
+    margin-top: 40px;
+  }
+  .section-intro-text {
+    padding-left: 10vw;
+  }
+  .div-about-wrapper {
+    width: 100%;
+  }
+  .div-bullet-wrapper {
+    width: 100%;
+  }
+  .section-content {
+    padding-left: 10vw;
+  }
+  .div-contact-wrapper {
+    width: 100%;
   }
 }
 
@@ -1382,6 +1806,89 @@
     padding-left: 10px;
     font-size: 11vw;
     line-height: 9vw;
+  }
+  .h1-intro {
+    width: 100%;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .div-slideshow-wrapper {
+    display: none;
+  }
+  .image-icon-footer {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .div-bulleicon-wrapper {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.15);
+    border-right-style: none;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+  .div-about-wrapper {
+    padding: 40px 20px;
+  }
+  .button-form-contact {
+    width: 75%;
+  }
+  .div-micro-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .div-bullet-wrapper {
+    height: auto;
+    padding-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .paragraph-columns {
+    width: 100%;
+  }
+  .link-footer {
+    margin-left: 0px;
+  }
+  .div-columns-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section-content {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-column {
+    width: 100%;
+  }
+  .div-contact-wrapper {
+    padding: 40px 20px;
+  }
+  .div-bullet-text-wrapper {
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .image-mbrella-logo {
+    width: 160px;
+    margin-left: 0px;
   }
 }
 
