@@ -1930,6 +1930,7 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #000;
+  opacity: 0.86;
 }
 
 .button-2 {
@@ -1964,7 +1965,7 @@
   height: 85vh;
 }
 
-.div-block-17 {
+.info_block {
   position: relative;
   left: -24px;
   top: -48px;
