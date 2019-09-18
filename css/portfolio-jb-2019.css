@@ -2301,6 +2301,75 @@
   font-family: Lato, sans-serif;
 }
 
+.work_page {
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 125vw;
+  height: 100vh;
+}
+
+.display_column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #000;
+}
+
+.disp_col_inner {
+  position: relative;
+  padding: 50px;
+}
+
+.col_title {
+  position: relative;
+  z-index: 3;
+  font-family: Audiowide, sans-serif;
+  color: #4c4f57;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.image_holder {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  width: 55vw;
+  height: 75vh;
+  border-radius: 10px;
+  background-image: url('../images/app_development.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 991px) {
   .section-intro-text {
     padding-left: 6vw;
