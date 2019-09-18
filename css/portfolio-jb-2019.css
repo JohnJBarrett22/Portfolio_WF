@@ -2288,6 +2288,19 @@
   text-align: center;
 }
 
+.button-3 {
+  display: block;
+  width: 110px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f59516;
+  text-align: center;
+}
+
+.body-2 {
+  font-family: Lato, sans-serif;
+}
+
 @media (max-width: 991px) {
   .section-intro-text {
     padding-left: 6vw;
