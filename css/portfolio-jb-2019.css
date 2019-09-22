@@ -2116,8 +2116,8 @@
 }
 
 .logo_bar {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .header_bar {
@@ -2297,7 +2297,7 @@
   text-align: center;
 }
 
-.body-2 {
+.jb_body {
   font-family: Lato, sans-serif;
 }
 
