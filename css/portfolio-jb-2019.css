@@ -2699,6 +2699,54 @@
   background-color: transparent;
 }
 
+.list-item-2 {
+  font-family: Audiowide, sans-serif;
+}
+
+.list-item-3 {
+  font-family: Audiowide, sans-serif;
+}
+
+.list-item-4 {
+  font-family: Audiowide, sans-serif;
+}
+
+.list-item-5 {
+  font-family: Audiowide, sans-serif;
+}
+
+.services_list {
+  margin-left: 0px;
+  padding-left: 35px;
+  background-image: url('../images/400dpiLogoCropped.jpg');
+  background-position: 0% 50%;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  font-family: Audiowide, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.list-item-7 {
+  font-family: Audiowide, sans-serif;
+}
+
+.list-item-8 {
+  font-family: Audiowide, sans-serif;
+}
+
+.list-item-9 {
+  font-family: Audiowide, sans-serif;
+}
+
+.paragraph-7 {
+  margin-bottom: 35px;
+}
+
+.paragraph-8 {
+  margin-bottom: 36px;
+}
+
 @media (max-width: 991px) {
   .section-intro-text {
     padding-left: 6vw;
@@ -3009,12 +3057,6 @@
     right: 0px;
     bottom: 0px;
   }
-}
-
-#w-node-c39f15a545d6-37efaea4 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: Area;
 }
 
 @font-face {
