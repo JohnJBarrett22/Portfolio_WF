@@ -371,6 +371,8 @@
 
 .orange_button {
   background-color: #f59516;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .footer_grid_2_block {
@@ -2717,7 +2719,7 @@
 
 .services_list {
   margin-left: 0px;
-  padding-left: 35px;
+  padding-left: 40px;
   background-image: url('../images/400dpiLogoCropped.jpg');
   background-position: 0% 50%;
   background-size: 30px;
@@ -2745,6 +2747,47 @@
 
 .paragraph-8 {
   margin-bottom: 36px;
+}
+
+.background-video-4 {
+  position: fixed;
+  z-index: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-12 {
+  display: inline-block;
+}
+
+.image-13 {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+.section {
+  height: 400vh;
+}
+
+.background_vid_block {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.desktop_block {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/three_laptops.png');
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
