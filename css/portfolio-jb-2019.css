@@ -370,6 +370,14 @@
 }
 
 .orange_button {
+  display: inline-block;
+  width: 115px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #f59516;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
@@ -1194,6 +1202,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 9;
+  display: none;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1295,7 +1304,7 @@
 
 .social_media_management_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 35px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -2805,6 +2814,33 @@
   height: 100vh;
   margin-top: 1000px;
   background-color: #000;
+}
+
+.list {
+  text-align: right;
+}
+
+.list-item-10 {
+  color: #fff;
+}
+
+.list-2 {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.services_block_list_item {
+  margin-left: 0px;
+  font-family: Audiowide, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.div-block-26 {
+  padding-left: 200px;
 }
 
 @media (max-width: 991px) {
