@@ -370,7 +370,7 @@
 }
 
 .orange_button {
-  display: inline-block;
+  display: inline;
   width: 115px;
   margin-right: auto;
   margin-left: auto;
@@ -381,6 +381,7 @@
   background-color: #f59516;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
+  text-align: center;
 }
 
 .footer_grid_2_block {
@@ -925,6 +926,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 3;
+  display: block;
   background-color: transparent;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
@@ -981,6 +983,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 4;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1013,6 +1016,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 5;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1045,6 +1049,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 6;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1077,6 +1082,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 7;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1109,6 +1115,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 8;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1170,6 +1177,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 9;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1202,7 +1210,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 9;
-  display: none;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1233,7 +1241,7 @@
 
 .web_development_title {
   display: inline-block;
-  margin: 355px auto auto 0px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1244,7 +1252,7 @@
 .app_development_title {
   position: static;
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1254,7 +1262,7 @@
 
 .ui_ux_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1264,7 +1272,7 @@
 
 .digital_copywriting_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1274,7 +1282,7 @@
 
 .seo_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1284,7 +1292,7 @@
 
 .analytics_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1294,7 +1302,7 @@
 
 .internet_marketing_title {
   display: inline-block;
-  margin: 355px auto auto 175px;
+  margin: 355px auto 160px 175px;
   border: 0px none #000;
   font-family: Audiowide, sans-serif;
   color: #fff;
@@ -1310,7 +1318,7 @@
   color: #fff;
   font-size: 95px;
   line-height: 85px;
-  text-shadow: 1px 1px 7px #000;
+  text-shadow: 5px 5px 7px #000;
 }
 
 .div-block-7 {
@@ -1329,7 +1337,7 @@
 
 .div-block-10 {
   width: 90%;
-  margin-top: 35px;
+  margin-top: 18px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1337,6 +1345,7 @@
 .heading-7 {
   width: 90%;
   margin-right: auto;
+  margin-bottom: -41px;
   margin-left: auto;
   font-family: Audiowide, sans-serif;
   font-size: 55px;
@@ -2834,13 +2843,31 @@
   margin-left: 0px;
   font-family: Audiowide, sans-serif;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 50px;
   font-weight: 400;
-  text-shadow: 1px 1px 7px #000;
+  text-shadow: 5px 5px 7px #000;
 }
 
 .div-block-26 {
   padding-left: 200px;
+}
+
+.orange_button_center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 115px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f59516;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
