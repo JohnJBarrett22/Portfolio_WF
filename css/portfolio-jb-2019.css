@@ -2871,6 +2871,10 @@
   text-align: center;
 }
 
+.heading-29 {
+  font-style: italic;
+}
+
 @media (max-width: 991px) {
   .section-intro-text {
     padding-left: 6vw;
