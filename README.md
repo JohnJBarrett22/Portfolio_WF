@@ -1,3 +1,3 @@
 # Portfolio - WF
 
-Revised portfolio that utilizes Webflow for all front end elements.
+Revised portfolio that utilizes Webflow for all elements.
