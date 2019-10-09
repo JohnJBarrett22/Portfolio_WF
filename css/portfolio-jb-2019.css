@@ -198,6 +198,10 @@
 .contact_section {
   min-height: 100vh;
   background-color: transparent;
+  background-image: url('../images/image-4-contact-transparent.png');
+  background-position: -10% 225%;
+  background-size: 75vw;
+  background-repeat: no-repeat;
 }
 
 .about_section {
@@ -374,6 +378,7 @@
   width: 115px;
   margin-right: auto;
   margin-left: auto;
+  float: right;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2873,6 +2878,15 @@
 
 .heading-29 {
   font-style: italic;
+}
+
+.image-14 {
+  width: 115%;
+  height: 115%;
+}
+
+.paragraph-9 {
+  margin-bottom: 215px;
 }
 
 @media (max-width: 991px) {
