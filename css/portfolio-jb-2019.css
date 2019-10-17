@@ -198,10 +198,6 @@
 .contact_section {
   min-height: 100vh;
   background-color: transparent;
-  background-image: url('../images/image-4-contact-transparent.png');
-  background-position: -10% 225%;
-  background-size: 75vw;
-  background-repeat: no-repeat;
 }
 
 .about_section {
@@ -2887,6 +2883,22 @@
 
 .paragraph-9 {
   margin-bottom: 215px;
+}
+
+.image-15 {
+  width: auto;
+  height: 95vh;
+  margin-left: -138px;
+}
+
+._40_block {
+  width: 40%;
+  padding: 10px;
+}
+
+.image_block {
+  width: 60%;
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
