@@ -2276,12 +2276,12 @@
 
 .div-block-23 {
   display: inline-block;
-  width: 50%;
+  width: 25%;
 }
 
 .div-block-24 {
   display: inline-block;
-  width: 50%;
+  width: 25%;
 }
 
 .image-11 {
@@ -2762,10 +2762,12 @@
 
 .paragraph-7 {
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .paragraph-8 {
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .background-video-4 {
@@ -2915,6 +2917,45 @@
   display: inline-block;
   max-height: 100%;
   max-width: 100%;
+}
+
+.paragraph-10 {
+  font-size: 16px;
+}
+
+.about_li {
+  font-size: 16px;
+}
+
+.list-item-12 {
+  font-size: 16px;
+}
+
+.slider-3 {
+  margin: 10px;
+}
+
+.paragraph-11 {
+  color: #000;
+}
+
+.h1_audiowide_contact {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Audiowide, sans-serif;
+  text-align: left;
+}
+
+.h1_audiowide_contact.greeting {
+  margin-top: 0px;
+  color: #fff;
+  font-size: 95px;
+  line-height: 95px;
+}
+
+.h1_audiowide_contact.tagline {
+  margin-bottom: 50px;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
