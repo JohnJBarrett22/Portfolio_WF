@@ -250,7 +250,7 @@
   right: auto;
   bottom: 0px;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -2892,13 +2892,29 @@
 }
 
 ._35_block {
+  display: block;
   width: 35%;
   padding: 10px;
 }
 
 .image_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 65%;
+  max-height: 100vh;
   padding: 10px;
+}
+
+.image-16 {
+  max-width: 100%;
+}
+
+.image-17 {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 991px) {
