@@ -80,6 +80,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -295,23 +297,28 @@
   display: flex;
 }
 
-.h1_audiowide {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.section_titles {
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-family: Audiowide, sans-serif;
-  text-align: left;
+  color: #000;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
 }
 
-.h1_audiowide.greeting {
+.section_titles.greeting {
   margin-top: 0px;
   color: #fff;
   font-size: 95px;
   line-height: 95px;
+  text-align: left;
 }
 
-.h1_audiowide.tagline {
+.section_titles.tagline {
   margin-bottom: 50px;
   color: #fff;
+  font-size: 34px;
 }
 
 ._2_block_row {
@@ -2320,6 +2327,7 @@
 
 .jb_body {
   font-family: Lato, sans-serif;
+  color: #000;
 }
 
 .work_page {
@@ -2911,6 +2919,7 @@
 
 .image-16 {
   max-width: 100%;
+  margin-top: 0px;
 }
 
 .image-17 {
@@ -2937,25 +2946,72 @@
 
 .paragraph-11 {
   color: #000;
+  font-size: 16px;
 }
 
-.h1_audiowide_contact {
-  margin-top: 0px;
-  margin-bottom: 0px;
+.section_titles_final {
+  margin-top: 35px;
+  margin-bottom: 35px;
   font-family: Audiowide, sans-serif;
-  text-align: left;
+  color: #000;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
 }
 
-.h1_audiowide_contact.greeting {
+.section_titles_final.greeting {
   margin-top: 0px;
   color: #fff;
   font-size: 95px;
   line-height: 95px;
 }
 
-.h1_audiowide_contact.tagline {
+.section_titles_final.tagline {
   margin-bottom: 50px;
   color: #fff;
+}
+
+.header_tagline {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.header_tagline.greeting {
+  margin-top: 0px;
+  color: #fff;
+  font-size: 95px;
+  line-height: 95px;
+}
+
+.header_tagline.tagline {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 34px;
+}
+
+.paragraph-12 {
+  font-size: 16px;
+}
+
+.paragraph-13 {
+  font-size: 16px;
+}
+
+.paragraph-14 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.paragraph-15 {
+  font-size: 16px;
+}
+
+.paragraph-16 {
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
