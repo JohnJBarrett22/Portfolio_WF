@@ -3027,18 +3027,18 @@
   text-align: center;
 }
 
-._40_block {
+._45_block {
   display: block;
-  width: 40%;
+  width: 45%;
   padding: 10px;
 }
 
-._60_image_block {
+._55_image_block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 65%;
+  width: 55%;
   max-height: 100vh;
   padding: 10px;
 }
