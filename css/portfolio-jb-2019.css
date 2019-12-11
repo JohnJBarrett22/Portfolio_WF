@@ -195,6 +195,8 @@
   margin-left: auto;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: #000;
+  color: transparent;
 }
 
 .contact_section {
@@ -1219,7 +1221,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 9;
-  display: none;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -3041,6 +3043,12 @@
   width: 55%;
   max-height: 100vh;
   padding: 10px;
+}
+
+.div-block-28 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 991px) {
