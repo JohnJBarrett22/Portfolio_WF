@@ -1684,11 +1684,24 @@
   font-weight: 700;
 }
 
-.grid-5 {
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+.services_grid {
+  margin: 25px 0px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.services_grid_block {
+  max-height: 360px;
+  max-width: 640px;
+}
+
+.image-20 {
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 #w-node-f2ffcec12f9b-37efaea4 {
