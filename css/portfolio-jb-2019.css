@@ -101,6 +101,7 @@
   display: inline-block;
   width: 50%;
   margin-top: 150px;
+  text-align: center;
 }
 
 .testimonials {
@@ -300,8 +301,8 @@
 }
 
 .section_titles {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: Audiowide, sans-serif;
   color: #000;
   font-size: 40px;
@@ -379,11 +380,12 @@
 }
 
 .orange_button {
-  display: inline;
-  width: 115px;
+  display: block;
+  width: auto;
   margin-right: auto;
   margin-left: auto;
   float: right;
+  clear: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -448,6 +450,7 @@
   margin-bottom: 25px;
   font-family: Audiowide, sans-serif;
   color: #333;
+  text-align: left;
 }
 
 .background_holder {
@@ -805,6 +808,11 @@
 }
 
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #000;
 }
 
@@ -2953,8 +2961,8 @@
 }
 
 .section_titles_final {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: Audiowide, sans-serif;
   color: #000;
   font-size: 40px;
@@ -3075,6 +3083,13 @@
   transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg) perspective(0px);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.main_container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
 }
 
 @media (max-width: 991px) {
