@@ -23,6 +23,7 @@
 
 .intro_section {
   min-height: 100vh;
+  margin-bottom: 0px;
   background-color: #000;
 }
 
@@ -80,8 +81,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -202,14 +203,17 @@
 
 .contact_section {
   min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: transparent;
 }
 
 .about_section {
   display: block;
   min-height: 100vh;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: transparent;
 }
 
@@ -217,8 +221,7 @@
   position: static;
   display: block;
   min-height: 100vh;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 50px 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -232,6 +235,8 @@
 
 .services_section {
   min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: transparent;
 }
 
@@ -303,6 +308,7 @@
 .section_titles {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 25px 0px;
   font-family: Audiowide, sans-serif;
   color: #000;
   font-size: 40px;
@@ -362,7 +368,7 @@
 }
 
 .footer_heading {
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: 5px;
   color: #fff;
 }
@@ -372,6 +378,8 @@
 }
 
 .legal_block {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
@@ -3090,6 +3098,22 @@
   margin-right: auto;
   margin-left: auto;
   text-align: left;
+}
+
+.ends_container {
+  max-width: 1350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-19 {
+  margin-top: 25px;
+}
+
+.text-block-2 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
