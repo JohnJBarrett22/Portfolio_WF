@@ -307,6 +307,11 @@
   margin-left: 0px;
 }
 
+.footer_link.footer_icon:hover {
+  color: #f59516;
+  font-weight: 400;
+}
+
 .footer_grid_1_block {
   padding-top: 7px;
   padding-bottom: 0px;
@@ -404,6 +409,11 @@
 .link_white {
   color: #fff;
   text-decoration: none;
+}
+
+.link_white:hover {
+  color: #f59516;
+  font-weight: 700;
 }
 
 .navbar {
