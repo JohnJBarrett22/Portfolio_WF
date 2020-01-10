@@ -223,7 +223,10 @@
 }
 
 ._2_block {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
   padding: 10px;
 }
@@ -877,6 +880,7 @@
 
 .form-block {
   margin-top: 0px;
+  text-align: left;
 }
 
 .web_development_header {
@@ -1456,6 +1460,42 @@
   text-transform: uppercase;
 }
 
+.orange_button_center.social_media_button {
+  display: inline-block;
+  width: auto;
+  text-align: left;
+}
+
+.orange_button_center.internet_marketing_button {
+  width: auto;
+}
+
+.orange_button_center.analytics_button {
+  width: auto;
+}
+
+.orange_button_center.seo_button {
+  width: auto;
+}
+
+.orange_button_center.digital_copywriting_button {
+  width: auto;
+}
+
+.orange_button_center.ui_ux_button {
+  width: auto;
+}
+
+.orange_button_center.app_development_button {
+  width: auto;
+}
+
+.orange_button_center.web_development_button {
+  display: inline-block;
+  width: auto;
+  float: right;
+}
+
 .orange_button_center.about_button {
   display: inline-block;
   width: auto;
@@ -1893,6 +1933,18 @@
   width: 100%;
   height: 100%;
   text-decoration: none;
+}
+
+.services_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 @media (max-width: 991px) {
