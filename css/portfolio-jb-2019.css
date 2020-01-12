@@ -1510,6 +1510,10 @@
   text-align: center;
 }
 
+.orange_button_center.services_button.space {
+  margin-right: 20px;
+}
+
 .heading-29 {
   font-style: italic;
 }
@@ -1530,8 +1534,11 @@
 }
 
 .contact_me_para {
+  margin-right: 200px;
+  margin-left: 200px;
   color: #000;
   font-size: 16px;
+  text-align: center;
 }
 
 .section_titles_final {
@@ -1557,6 +1564,8 @@
 }
 
 .my_work_feature_para {
+  padding-right: 7px;
+  padding-left: 7px;
   font-size: 16px;
   text-align: center;
 }
@@ -1903,8 +1912,11 @@
   text-align: right;
 }
 
-.paragraph-23 {
+.services_header_para {
+  margin-right: 200px;
+  margin-left: 200px;
   font-size: 16px;
+  text-align: center;
 }
 
 .services_image_inverse_h4 {
@@ -2008,6 +2020,14 @@
   color: #f59516;
   font-weight: 700;
   text-decoration: none;
+}
+
+.text-block-3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
 }
 
 @media (max-width: 991px) {
@@ -2158,7 +2178,7 @@
     font-size: 14px;
     line-height: 16px;
   }
-  .paragraph-23 {
+  .services_header_para {
     padding-right: 0px;
     padding-left: 0px;
     font-size: 14px;
