@@ -495,6 +495,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 2;
+  display: block;
   background-color: transparent;
   -webkit-perspective: 2000px;
   perspective: 2000px;
@@ -1555,22 +1556,6 @@
   text-align: center;
 }
 
-.paragraph-14 {
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.paragraph-15 {
-  font-size: 16px;
-  text-align: center;
-}
-
-.paragraph-16 {
-  font-size: 16px;
-  text-align: center;
-}
-
 .div-block-27 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1612,9 +1597,13 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   width: 55%;
   max-height: 100vh;
+  min-height: 100vh;
   padding: 10px;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .div-block-28 {
@@ -1641,6 +1630,14 @@
   max-width: 80%;
   margin-right: auto;
   margin-left: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   -webkit-perspective-origin: 0% 50%;
   perspective-origin: 0% 50%;
   -webkit-transform: rotateX(0deg) rotateY(-180deg) rotateZ(0deg) perspective(0px);
@@ -1883,32 +1880,12 @@
   opacity: 1;
 }
 
-.paragraph-17 {
-  font-size: 16px;
-  text-align: left;
-}
-
-.paragraph-18 {
-  font-size: 16px;
-  text-align: left;
-}
-
 .my_services_para {
   font-size: 16px;
   text-align: left;
 }
 
 .my_work_para {
-  font-size: 16px;
-  text-align: right;
-}
-
-.paragraph-21 {
-  font-size: 16px;
-  text-align: right;
-}
-
-.paragraph-22 {
   font-size: 16px;
   text-align: right;
 }
@@ -1945,6 +1922,24 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.lottie-animation-2 {
+  margin: 0px -200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.services_intro_title {
+  display: inline-block;
+  margin: 0px -161px 160px 75px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  line-height: 95px;
+  text-align: right;
+  text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
 @media (max-width: 991px) {
@@ -2042,10 +2037,6 @@
     font-size: 14px;
     line-height: 16px;
   }
-  .paragraph-14 {
-    font-size: 12px;
-    line-height: 12px;
-  }
   ._55_image_block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2090,13 +2081,6 @@
   .services_image_h4 {
     font-size: 18px;
     line-height: 18px;
-  }
-  .paragraph-17 {
-    font-size: 14px;
-  }
-  .paragraph-18 {
-    font-size: 14px;
-    line-height: 16px;
   }
   .my_services_para {
     font-size: 14px;
