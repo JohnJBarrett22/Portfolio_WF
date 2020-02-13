@@ -2030,7 +2030,7 @@
   text-align: left;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .intro_section {
     min-height: 100vh;
   }
