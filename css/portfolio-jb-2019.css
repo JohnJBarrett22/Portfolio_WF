@@ -1351,6 +1351,15 @@
 .col_title {
   position: relative;
   z-index: 5;
+  display: inline-block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   font-family: Audiowide, sans-serif;
   color: #4c4f57;
   font-size: 100px;
