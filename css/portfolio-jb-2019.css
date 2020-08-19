@@ -513,6 +513,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  display: block;
   border: 0px none #000;
   border-radius: 0px;
   background-color: transparent;
@@ -621,6 +622,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  display: block;
   background-color: transparent;
   background-image: url('../images/digital_copywriting.jpg');
   background-position: 0px 0px;
@@ -687,6 +689,7 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+  display: block;
   background-color: transparent;
   background-image: url('../images/analytics.jpg');
   background-position: 0px 0px;
@@ -1444,6 +1447,7 @@
 }
 
 .services_block_list_item {
+  display: block;
   margin-left: 0px;
   font-family: Audiowide, sans-serif;
   font-size: 40px;
