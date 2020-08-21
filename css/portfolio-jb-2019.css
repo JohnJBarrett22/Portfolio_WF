@@ -2143,6 +2143,54 @@
   background-color: #fff;
 }
 
+.fudbfd_section3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #b2a2cf;
+}
+
+.text_holder_block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  background-color: transparent;
+}
+
+.heading-30 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fudbfd_section {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #839739;
+}
+
 @media screen and (max-width: 991px) {
   .intro_section {
     min-height: 100vh;
