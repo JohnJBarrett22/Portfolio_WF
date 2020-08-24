@@ -180,6 +180,7 @@
 
 .contact {
   width: 90%;
+  height: 65vh;
   margin-right: auto;
   margin-left: auto;
   padding-top: 25px;
@@ -1352,12 +1353,10 @@
   background-size: cover;
 }
 
-.section {
+.contact_page_section {
   position: relative;
   z-index: 2;
-  width: 100vw;
-  height: 100vh;
-  margin-top: 1000px;
+  margin-top: 0px;
   background-color: #000;
 }
 
@@ -2259,7 +2258,7 @@
   align-items: center;
 }
 
-.section-2 {
+._404_section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2273,6 +2272,18 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #000;
+}
+
+.lottie-animation-6 {
+  display: block;
+  width: 70%;
+  height: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 @media screen and (max-width: 991px) {
