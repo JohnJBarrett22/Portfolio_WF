@@ -2075,6 +2075,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 65px;
+  line-height: 65px;
 }
 
 .quote_section_1 {
@@ -2082,7 +2086,7 @@
   display: block;
   overflow: hidden;
   height: 100vh;
-  background-color: #839739;
+  background-color: transparent;
 }
 
 .quote_section_3 {
@@ -2284,6 +2288,23 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.background-video-5 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.quote_section_5 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #2f853f;
+}
+
+.list-3 {
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 991px) {
