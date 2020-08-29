@@ -2491,6 +2491,10 @@
   height: 100%;
 }
 
+.background-video-6 {
+  width: 100vw;
+}
+
 @media screen and (max-width: 991px) {
   .intro_section {
     min-height: 100vh;
