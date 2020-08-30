@@ -2042,7 +2042,7 @@
   display: block;
   overflow: hidden;
   height: 100vh;
-  background-color: #b2a2cf;
+  background-color: transparent;
 }
 
 .text_holder_block {
@@ -2538,6 +2538,11 @@
   font-size: 75px;
   line-height: 75px;
   font-weight: 700;
+}
+
+.background-video-7 {
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 991px) {
