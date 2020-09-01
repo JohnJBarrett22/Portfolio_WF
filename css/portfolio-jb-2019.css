@@ -228,12 +228,13 @@
 }
 
 ._2_block {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   width: 50%;
   padding: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .footer_heading {
@@ -1584,6 +1585,8 @@
 }
 
 .main_container {
+  width: 100vw;
+  height: 100vh;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -2547,6 +2550,53 @@
 .background-video-7 {
   width: 100vw;
   height: 100vh;
+}
+
+.about_intro_section {
+  background-color: #000;
+}
+
+.heading-30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  padding-top: 275px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.paragraph-13 {
+  margin-bottom: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: right;
+}
+
+.text-block-4 {
+  text-align: right;
+}
+
+.text-span {
+  font-style: italic;
+}
+
+.text-span-2 {
+  font-style: italic;
 }
 
 @media screen and (max-width: 991px) {
