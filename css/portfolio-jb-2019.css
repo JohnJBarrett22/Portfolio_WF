@@ -2633,7 +2633,8 @@
 }
 
 .testimonial_para_left {
-  margin-bottom: 25px;
+  margin-bottom: 0px;
+  font-style: italic;
   text-align: right;
 }
 
@@ -2781,6 +2782,20 @@
 
 .text-span-18 {
   font-style: italic;
+}
+
+.rec_author_left {
+  display: block;
+  float: none;
+  clear: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+.text-block-5 {
+  margin-bottom: 25px;
+  color: #f59516;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
