@@ -1158,7 +1158,6 @@
 
 .main_container {
   width: 100vw;
-  height: 100vh;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -2018,6 +2017,7 @@
 }
 
 .about_intro_section {
+  height: 100vh;
   background-color: #000;
 }
 
@@ -2105,6 +2105,14 @@
   clear: none;
   text-align: left;
   text-decoration: none;
+}
+
+.main_container-copy {
+  width: 100vw;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
@@ -2308,6 +2316,10 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
+  .main_container-copy {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2380,35 +2392,35 @@
   }
 }
 
-#w-node-6a62b51ca0de-37efaea4 {
+#w-node-6a62b51ca0de-5639b107 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-6a62b51ca0f2-37efaea4 {
+#w-node-6a62b51ca0f2-5639b107 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-6a62b51ca106-37efaea4 {
+#w-node-6a62b51ca106-5639b107 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-6a62b51ca11a-37efaea4 {
+#w-node-6a62b51ca11a-5639b107 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-6a62b51ca12e-37efaea4 {
+#w-node-6a62b51ca12e-5639b107 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -2420,16 +2432,19 @@
   src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Fa 400';
   src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Fa solid 900';
   src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
