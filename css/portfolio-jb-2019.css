@@ -2406,8 +2406,23 @@
     -ms-flex-line-pack: stretch;
     align-content: stretch;
   }
+  .div-block {
+    width: 100%;
+  }
+  .div-block-2 {
+    width: 100%;
+  }
   .slider {
     height: 200px;
+  }
+  .div-block-3 {
+    width: 85%;
+  }
+  .div-block-4 {
+    width: 20%;
+  }
+  .div-block-5 {
+    width: 80%;
   }
   ._4_block {
     display: -webkit-box;
@@ -2492,6 +2507,8 @@
     margin-bottom: 15px;
   }
   .heading-29 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 12px;
   }
   .section_titles_final {
@@ -2503,7 +2520,8 @@
     line-height: 20px;
   }
   .paragraph-12 {
-    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     font-size: 10px;
   }
   .div-block-27 {
@@ -2516,6 +2534,17 @@
   }
   ._55_image_block {
     width: 90%;
+  }
+  .main_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .skills_grid_image {
     max-height: 17px;
@@ -2609,6 +2638,11 @@
     padding-left: 0px;
     font-size: 14px;
     line-height: 14px;
+  }
+  .slide-nav-4 {
+    padding-top: 20px;
+    font-size: 8px;
+    line-height: 8px;
   }
 }
 
