@@ -46,8 +46,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -880,16 +880,6 @@
   text-align: left;
 }
 
-.div-block-23 {
-  display: inline-block;
-  width: 25%;
-}
-
-.div-block-24 {
-  display: inline-block;
-  width: 25%;
-}
-
 .hex_img {
   display: block;
   width: 150px;
@@ -898,20 +888,7 @@
   text-align: left;
 }
 
-.heading-24 {
-  margin-left: auto;
-  text-align: center;
-}
-
 .hex_title {
-  text-align: center;
-}
-
-.heading-26 {
-  text-align: center;
-}
-
-.heading-27 {
   text-align: center;
 }
 
@@ -1161,7 +1138,7 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  text-align: left;
+  text-align: center;
 }
 
 .ends_container {
@@ -1557,7 +1534,9 @@
 .about_upper_section {
   position: relative;
   z-index: 1;
+  height: 100vh;
   background-color: #fff;
+  color: #333;
 }
 
 .stick_block_1_wrapper {
@@ -1602,12 +1581,16 @@
 .about_middle_section {
   position: relative;
   z-index: 1;
+  height: 100vh;
   background-color: #fff;
 }
 
 .about_lower_section {
   position: relative;
   z-index: 1;
+  height: 100vh;
+  margin-top: 0px;
+  padding-top: 35px;
   background-color: #fff;
 }
 
@@ -2107,11 +2090,17 @@
   text-decoration: none;
 }
 
-.main_container-copy {
-  width: 100vw;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+.heading-32 {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  padding-top: 35px;
+  font-family: Audiowide, sans-serif;
+  color: #333;
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.services_form_block {
   text-align: left;
 }
 
@@ -2418,10 +2407,6 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  .main_container-copy {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
   .image-23 {
     margin-top: 25px;
     padding-top: 0px;
@@ -2631,10 +2616,6 @@
     font-size: 17px;
     line-height: 17px;
   }
-  .heading-27 {
-    font-size: 17px;
-    line-height: 17px;
-  }
   .orange_button_center.services_button.space {
     margin-right: auto;
     margin-bottom: 15px;
@@ -2806,6 +2787,15 @@
   }
   .home_form {
     width: 100%;
+  }
+  .rich-text-block {
+    text-align: left;
+  }
+  .services_form {
+    width: 100%;
+  }
+  .services_form_block {
+    display: block;
   }
 }
 
