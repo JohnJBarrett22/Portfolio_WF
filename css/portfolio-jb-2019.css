@@ -120,6 +120,7 @@
 
 ._4_block {
   width: 25%;
+  height: 225px;
 }
 
 ._4_block.footer_block {
@@ -204,6 +205,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   width: auto;
   margin-right: auto;
   margin-left: auto;
@@ -1492,7 +1494,7 @@
 
 .scroll_track_section {
   position: relative;
-  height: 300vh;
+  height: 200vh;
 }
 
 .stick_block {
@@ -1553,7 +1555,7 @@
   height: 100vh;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/seo.jpg');
+  background-image: url('../images/mockups.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1569,11 +1571,6 @@
   z-index: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('../images/5ddc1ddbd31f0f3a34718440_fabian-irsara-67l-QujB14w-unsplash.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -1590,7 +1587,7 @@
   z-index: 1;
   height: 100vh;
   margin-top: 0px;
-  padding-top: 35px;
+  padding-top: 0px;
   background-color: #fff;
 }
 
@@ -2077,6 +2074,7 @@
 }
 
 .rec_author {
+  margin-right: 7px;
   margin-bottom: 25px;
   color: #f59516;
   font-weight: 700;
@@ -2090,7 +2088,7 @@
   text-decoration: none;
 }
 
-.heading-32 {
+.services_detail_h1 {
   margin-top: 0px;
   margin-bottom: 35px;
   padding-top: 35px;
@@ -2102,6 +2100,80 @@
 
 .services_form_block {
   text-align: left;
+}
+
+.heading-33 {
+  margin-top: 0px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+._4_block_rec {
+  width: 23%;
+  height: 225px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1.5px solid #4c4f57;
+  border-radius: 1px;
+  text-align: right;
+  text-decoration: none;
+}
+
+._4_block_rec.footer_block {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.services_detail_h2 {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  padding-top: 35px;
+  font-family: Audiowide, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.my_work_quote {
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.text-block-4 {
+  color: #f59516;
+  text-align: right;
+  text-decoration: none;
+}
+
+.link-block {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.heading-34 {
+  margin-top: 0px;
+  padding-top: 315px;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: right;
+}
+
+.web_development_detail_title {
+  display: inline-block;
+  margin: 300px auto 160px 1150px;
+  border: 0px none #000;
+  font-family: Audiowide, sans-serif;
+  color: #fff;
+  font-size: 95px;
+  line-height: 95px;
+  text-align: center;
+  text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
 @media screen and (max-width: 991px) {
@@ -2423,6 +2495,20 @@
   .list-7 {
     padding-left: 0px;
   }
+  ._4_block_rec.footer_block {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .my_work_quote {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .web_development_detail_title {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2517,6 +2603,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 75%;
+    height: 175px;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-orient: vertical;
@@ -2791,11 +2878,41 @@
   .rich-text-block {
     text-align: left;
   }
+  .services_detail_h1 {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 35px;
+    line-height: 35px;
+  }
   .services_form {
     width: 100%;
   }
   .services_form_block {
     display: block;
+  }
+  ._4_block_rec {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  ._4_block_rec.footer_block {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
 }
 
