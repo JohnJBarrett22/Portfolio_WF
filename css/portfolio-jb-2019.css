@@ -1494,7 +1494,7 @@
 
 .scroll_track_section {
   position: relative;
-  height: 250vh;
+  height: 300vh;
 }
 
 .stick_block {
@@ -2154,7 +2154,11 @@
   padding-left: 10px;
 }
 
-.section {
+.scroll_alt_section_2 {
+  display: none;
+}
+
+.scroll_alt_section {
   display: none;
 }
 
@@ -2524,6 +2528,12 @@
   .scroll_track_section {
     display: none;
   }
+  .about_upper_section {
+    height: auto;
+  }
+  .about_middle_section {
+    height: auto;
+  }
   .about_lower_section {
     height: auto;
   }
@@ -2547,6 +2557,24 @@
   }
   .image-holder.img-6 {
     width: 75vw;
+  }
+  .mobile_img_block_2 {
+    height: 75vh;
+    background-image: url('../images/mockups.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .scroll_alt_section_2 {
+    display: block;
+  }
+  .scroll_alt_section {
+    display: block;
+  }
+  .mobile_img_block_1 {
+    height: 75vh;
+    background-image: url('../images/web_development.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 
@@ -2847,6 +2875,11 @@
   .image-holder.img-6 {
     width: 65vw;
   }
+  .rec_author {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
   .recaptcha-2 {
     position: relative;
   }
@@ -2905,8 +2938,7 @@
     display: flex;
     width: 75%;
     height: 200px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 7px auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2944,11 +2976,25 @@
     margin-left: auto;
     text-align: center;
   }
-  .div-block-30 {
+  .mobile_img_block_2 {
+    height: 50vh;
+    background-image: url('../images/mockups.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .scroll_alt_section_2 {
+    display: block;
+  }
+  .scroll_alt_section {
+    display: block;
+  }
+  .mobile_img_block_1 {
     height: 50vh;
     background-image: url('../images/web_development.jpg');
     background-position: 50% 50%;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
