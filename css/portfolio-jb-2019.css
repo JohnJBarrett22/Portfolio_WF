@@ -1442,7 +1442,7 @@
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
-.image-21 {
+._55_image {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -2772,6 +2772,8 @@
   }
   ._55_image_block {
     width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2819,7 +2821,10 @@
   .services_grid_block {
     margin-bottom: 7px;
   }
-  .image-21 {
+  .my_work_para {
+    text-align: left;
+  }
+  ._55_image {
     display: block;
   }
   .image-22 {
@@ -2948,6 +2953,11 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .services_detail_h2 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    line-height: 25px;
   }
   ._4_block_footer {
     display: -webkit-box;
