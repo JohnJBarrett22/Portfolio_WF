@@ -2099,6 +2099,7 @@
   color: #333;
   font-size: 65px;
   line-height: 65px;
+  text-align: left;
 }
 
 .services_form_block {
@@ -2167,6 +2168,47 @@
 
 .sevices_mobile_block {
   display: none;
+}
+
+.tou_h1 {
+  font-family: Audiowide, sans-serif;
+  font-size: 65px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+
+.tou_h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.tou_h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.link {
+  color: #f59516;
+}
+
+.link-2 {
+  color: #f59516;
+}
+
+.link-3 {
+  color: #f59516;
 }
 
 @media screen and (max-width: 991px) {
