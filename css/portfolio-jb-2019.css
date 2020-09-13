@@ -1142,7 +1142,7 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .ends_container {
@@ -1967,7 +1967,7 @@
   flex: 1;
 }
 
-.content-section {
+.about_picture_section {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2962,6 +2962,17 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+  }
+  .column-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .about_content_h1 {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   .heading-30 {
     font-size: 35px;
