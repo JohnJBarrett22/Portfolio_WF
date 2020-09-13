@@ -21,7 +21,7 @@
 }
 
 .footer_section {
-  display: none;
+  display: block;
   background-color: #000;
 }
 
@@ -1140,6 +1140,7 @@
 .main_container {
   width: 100vw;
   max-width: 1200px;
+  min-height: 100vh;
   margin-right: auto;
   margin-left: auto;
   text-align: left;
