@@ -2170,7 +2170,7 @@
   display: none;
 }
 
-.tou_h1 {
+.legal_h1 {
   font-family: Audiowide, sans-serif;
   font-size: 65px;
   line-height: 65px;
@@ -2185,14 +2185,14 @@
   font-weight: 400;
 }
 
-.tou_h2 {
+.legal_h2 {
   margin-top: 30px;
   margin-bottom: 5px;
   font-size: 22px;
   line-height: 22px;
 }
 
-.tou_h3 {
+.legal_h3 {
   margin-top: 15px;
   margin-bottom: 5px;
   font-size: 16px;
@@ -2209,6 +2209,10 @@
 
 .link-3 {
   color: #f59516;
+}
+
+.paragraph-2 {
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -2549,6 +2553,14 @@
     padding-right: 5px;
     padding-left: 5px;
   }
+  .legal_h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .legal_h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2642,6 +2654,10 @@
   }
   .sevices_mobile_block {
     display: block;
+  }
+  .legal_h2 {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 
@@ -3171,6 +3187,10 @@
   .lottie-animation-7 {
     margin-right: -65px;
     margin-left: -65px;
+  }
+  .legal_h1 {
+    font-size: 35px;
+    line-height: 35px;
   }
 }
 
