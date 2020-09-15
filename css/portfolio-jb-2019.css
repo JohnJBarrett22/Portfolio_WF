@@ -1140,7 +1140,6 @@
 .main_container {
   width: 100vw;
   max-width: 1200px;
-  min-height: 100vh;
   margin-right: auto;
   margin-left: auto;
   text-align: left;
@@ -2191,7 +2190,7 @@
   line-height: 16px;
 }
 
-.paragraph-2 {
+.legal_timestamp {
   text-align: center;
 }
 
