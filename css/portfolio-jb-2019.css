@@ -2158,10 +2158,6 @@
   padding-left: 10px;
 }
 
-.scroll_alt_section_2 {
-  display: none;
-}
-
 .scroll_alt_section {
   display: none;
 }
@@ -2181,10 +2177,6 @@
   text-align: center;
 }
 
-.bold-text {
-  font-weight: 400;
-}
-
 .legal_h2 {
   margin-top: 30px;
   margin-bottom: 5px;
@@ -2199,24 +2191,8 @@
   line-height: 16px;
 }
 
-.link {
-  color: #f59516;
-}
-
-.link-2 {
-  color: #f59516;
-}
-
-.link-3 {
-  color: #f59516;
-}
-
 .paragraph-2 {
   text-align: center;
-}
-
-.legal_link {
-  color: #f59516;
 }
 
 @media screen and (max-width: 991px) {
@@ -2643,9 +2619,6 @@
     background-image: url('../images/mockups.jpg');
     background-position: 50% 50%;
     background-size: cover;
-  }
-  .scroll_alt_section_2 {
-    display: block;
   }
   .scroll_alt_section {
     display: block;
@@ -3170,9 +3143,6 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .scroll_alt_section_2 {
-    display: block;
   }
   .scroll_alt_section {
     display: block;
