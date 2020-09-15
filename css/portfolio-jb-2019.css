@@ -2215,6 +2215,10 @@
   text-align: center;
 }
 
+.legal_link {
+  color: #f59516;
+}
+
 @media screen and (max-width: 991px) {
   .intro_section {
     min-height: 100vh;
