@@ -800,6 +800,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -811,6 +812,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -821,6 +823,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -831,6 +834,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -841,6 +845,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -851,6 +856,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -861,6 +867,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -871,7 +878,7 @@
   font-family: Audiowide, sans-serif;
   color: #fff;
   font-size: 95px;
-  line-height: 85px;
+  line-height: 95px;
   text-shadow: 1px 1px 20px #000, 4px 4px 2px #f5941c;
 }
 
@@ -1459,8 +1466,10 @@
 }
 
 .lottie-animation-4 {
-  max-width: 78%;
-  margin-left: 0px;
+  max-width: 58%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
