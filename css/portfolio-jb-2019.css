@@ -47,7 +47,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 35px;
+  margin-top: 0px;
   margin-bottom: 35px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -172,7 +172,7 @@
 
 .contact {
   width: 90%;
-  height: 65vh;
+  height: 75vh;
   margin-right: auto;
   margin-left: auto;
   padding-top: 25px;
@@ -1589,7 +1589,7 @@
 .about_middle_section {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  height: 130vh;
   background-color: #fff;
 }
 
@@ -2107,7 +2107,7 @@
   color: #333;
   font-size: 65px;
   line-height: 65px;
-  text-align: left;
+  text-align: center;
 }
 
 .services_form_block {
@@ -2132,6 +2132,7 @@
   font-family: Audiowide, sans-serif;
   font-size: 40px;
   line-height: 40px;
+  text-align: center;
 }
 
 .my_work_quote {
@@ -2201,6 +2202,16 @@
 
 .legal_timestamp {
   text-align: center;
+}
+
+.main_container_100vh {
+  width: 100vw;
+  height: auto;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
@@ -2548,6 +2559,10 @@
   .legal_h3 {
     font-size: 14px;
     line-height: 14px;
+  }
+  .main_container_100vh {
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
 
@@ -3173,6 +3188,17 @@
   .legal_h1 {
     font-size: 35px;
     line-height: 35px;
+  }
+  .main_container_100vh {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
