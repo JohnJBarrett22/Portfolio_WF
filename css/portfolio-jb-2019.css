@@ -48,7 +48,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -142,8 +142,8 @@
   display: block;
   min-height: 100vh;
   margin-top: 0px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: transparent;
 }
 
@@ -182,8 +182,8 @@
 
 .section_titles {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 25px 0px;
+  margin-bottom: 25px;
+  padding: 0px;
   font-family: Audiowide, sans-serif;
   color: #000;
   font-size: 40px;
@@ -209,6 +209,7 @@
   overflow: visible;
   width: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -249,10 +250,9 @@
 .orange_button {
   display: inline-block;
   width: auto;
-  margin-right: 15px;
-  margin-left: 15px;
-  padding-right: 15px;
-  float: right;
+  margin: 0px 25px 0px 0px;
+  padding: 10px 25px;
+  float: none;
   clear: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1017,7 +1017,7 @@
 .image-17 {
   display: inline-block;
   max-height: 100%;
-  max-width: 100%;
+  max-width: 85%;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -1116,6 +1116,14 @@
   max-height: 100vh;
   min-height: auto;
   padding: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -1153,7 +1161,7 @@
 }
 
 .ends_container {
-  max-width: 1350px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1166,6 +1174,11 @@
   color: #fff;
   font-size: 12px;
   font-weight: 700;
+}
+
+.skill_block {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .field-label {
@@ -1248,12 +1261,12 @@
 }
 
 .services_grid {
-  margin: 25px;
+  margin: 50px 0px;
   grid-column-gap: 1px;
   grid-row-gap: 1px;
   grid-template-areas: ". . . Area";
-  -ms-grid-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: minmax(200px, 1fr) 1px 1fr 1px 1fr 1px 1fr;
+  grid-template-columns: minmax(200px, 1fr) 1fr 1fr 1fr;
   -ms-grid-rows: auto 1px auto;
   grid-template-rows: auto auto;
 }
@@ -1415,6 +1428,7 @@
 }
 
 .image-20 {
+  max-width: 85%;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -1452,13 +1466,15 @@
 }
 
 ._55_image {
+  max-width: 85%;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-.image-22 {
+.image_85 {
+  max-width: 85%;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -2163,13 +2179,13 @@
 ._4_block_footer {
   width: 25%;
   height: 225px;
+  padding: 15px;
 }
 
 ._4_block_footer.footer_block {
   margin-right: 10px;
   margin-left: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 15px;
 }
 
 .scroll_alt_section {
@@ -2226,6 +2242,57 @@
   margin-left: auto;
   background-color: #fff;
   text-align: left;
+}
+
+@media screen and (min-width: 1280px) {
+  ._55_image_block {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .image-20 {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  ._4_block_row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  ._2_block_row {
+    margin-bottom: 48px;
+  }
+
+  .image-17 {
+    max-width: 80%;
+  }
+
+  ._55_image_block {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .services_grid {
+    margin: 50px 0px;
+  }
+
+  ._55_image {
+    max-width: 80%;
+  }
+
+  .image_85 {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3119,7 +3186,7 @@
     display: block;
   }
 
-  .image-22 {
+  .image_85 {
     max-height: 0%;
     max-width: 100%;
   }
